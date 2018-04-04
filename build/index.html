@@ -1,0 +1,15 @@
+
+<!-- 移除public文件夹，利用html-webpack-plugin，index.html文件会自动生成，此外CSS已经通过前面的操作打包到JS中了。 -->
+<!-- 在app目录下，创建一个index.tmpl.html文件模板，这个模板包含title等必须元素，在编译过程中，插件会依据此模板生成最终的html页面，会自动添加所依赖的 css, js，favicon等文件 -->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Webpack Sample Project</title>
+  </head>
+  <body>
+    <div id='root'>
+    </div>
+  <script type="text/javascript" src="bundle-4670909ece44985a7595.js"></script></body>
+</html>
